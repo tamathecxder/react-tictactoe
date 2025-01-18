@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <header>
-        <img src="" alt="" />
+        <img src={undefined} alt={undefined} />
         <p>Coming soon...</p>
       </header>
 
