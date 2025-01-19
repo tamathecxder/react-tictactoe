@@ -1,6 +1,7 @@
 import { act, useState } from "react";
 import GameBoard from "./components/GameBoard";
 import Player from "./components/Player";
+import Log from "./components/Log";
 
 function App() {
   const [activePlayer, setActivePlayer] = useState("X");
@@ -21,7 +22,7 @@ function App() {
           activePlayerSymbol={activePlayer}
         />
       </div>
-      LOG
+      <Log />
     </main>
   );
 }
